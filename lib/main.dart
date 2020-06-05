@@ -24,9 +24,9 @@ class Main extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           Home.id: (context) => Home(),
-          Login.id: (context) => Login(),
+          LoginPage.id: (context) => LoginPage(),
         },
-        initialRoute: Login.id,
+        initialRoute: LoginPage.id,
       ),
     );
   }
