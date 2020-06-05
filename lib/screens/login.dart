@@ -84,6 +84,8 @@ class LoginPage extends StatelessWidget {
                                 vertical: mediaQuery.size.height * 0.01,
                               ),
                               child: TextFormField(
+                                autofocus: true,
+                                keyboardType: TextInputType.phone,
                                 decoration: InputDecoration(
                                   border: InputBorder.none,
                                   hintText: "Phone number",
@@ -124,6 +126,7 @@ class LoginPage extends StatelessWidget {
                                 vertical: mediaQuery.size.height * 0.01,
                               ),
                               child: TextFormField(
+                                obscureText: true,
                                 decoration: InputDecoration(
                                   border: InputBorder.none,
                                   hintText: "Password",
