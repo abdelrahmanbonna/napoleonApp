@@ -10,8 +10,7 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     var heightScreen = MediaQuery.of(context).size.height;
     return Scaffold(
-      body: // Adobe XD layer: 'Objects' (group)
-          SafeArea(
+      body: SafeArea(
         child: Column(
           children: [
             SizedBox(
