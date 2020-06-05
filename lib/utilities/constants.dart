@@ -5,7 +5,12 @@ final theme = ThemeData(
   accentColor: const Color(0xffef4c66),
   splashColor: const Color(0xffffffff),
   textTheme: TextTheme(
-    headline1: TextStyle(fontSize: 24, letterSpacing: 0),
+    headline1: TextStyle(
+      fontSize: 30,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+      letterSpacing: 0,
+    ),
     headline2: TextStyle(fontSize: 20, letterSpacing: 0.25),
     bodyText1: TextStyle(fontSize: 16, letterSpacing: 0.5),
     bodyText2: TextStyle(fontSize: 14, letterSpacing: 0.25),
