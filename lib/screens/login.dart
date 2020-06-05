@@ -30,9 +30,18 @@ class LoginPage extends StatelessWidget {
               child: Container(
                 height: mediaQuery.size.height * 0.5,
                 width: mediaQuery.size.width * 0.9,
-                child: Card(
-                  
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(50.0),
+                  color: const Color(0xffffffff),
+                  boxShadow: [
+                    BoxShadow(
+                      color: const Color(0x29000000),
+                      offset: Offset(0, 3),
+                      blurRadius: 6,
+                    ),
+                  ],
                 ),
+                child: Column(),
               ),
             )
           ],
