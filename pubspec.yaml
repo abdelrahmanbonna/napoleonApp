@@ -23,6 +23,9 @@ flutter:
   assets:
    - assets/back.png
    - assets/logo.png
+   - assets/home1.png
+   - assets/home2.png
+   - assets/study.png
   fonts:
     - family: Roboto
       fonts:

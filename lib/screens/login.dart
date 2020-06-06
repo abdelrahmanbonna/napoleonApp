@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'home.dart';
+
 class LoginPage extends StatelessWidget {
   static final id = '/login';
   @override
@@ -145,7 +147,9 @@ class LoginPage extends StatelessWidget {
                               0.07,
                           child: RaisedButton(
                             color: Theme.of(context).accentColor,
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.of(context).pushNamed(HomePage.id);
+                            },
                             child: Text(
                               "LOGIN",
                               style: TextStyle(

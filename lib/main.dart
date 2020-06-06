@@ -23,7 +23,7 @@ class Main extends StatelessWidget {
         theme: theme,
         debugShowCheckedModeBanner: false,
         routes: {
-          Home.id: (context) => Home(),
+          HomePage.id: (context) => HomePage(),
           LoginPage.id: (context) => LoginPage(),
         },
         initialRoute: LoginPage.id,
