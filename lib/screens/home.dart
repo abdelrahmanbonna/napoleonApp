@@ -106,7 +106,6 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    //TODO Bonna Work
                     Container(
                       margin: EdgeInsets.all(25),
                       child: Text(
@@ -166,6 +165,7 @@ class HomePage extends StatelessWidget {
                         },
                       ),
                     ),
+                    //TODO: add the Scroll indicator here
                   ],
                 ),
               ),
@@ -178,6 +178,12 @@ class HomePage extends StatelessWidget {
           showSelectedLabels: false,
           showUnselectedLabels: false,
           selectedItemColor: theme.accentColor,
+          unselectedItemColor: Color(0xff5C5C5C),
+          type: BottomNavigationBarType.fixed,
+          onTap: (index) {
+            //TODO: find a way to change the index rather than setState
+            barindex = index;
+          },
           items: [
             BottomNavigationBarItem(
                 icon: Icon(NapoleonIcons.task), title: Text('settings')),
