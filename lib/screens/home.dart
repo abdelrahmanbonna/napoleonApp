@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:napoleon/utilities/constants.dart';
+import 'package:napoleon/utilities/napoleon_icons_icons.dart';
 
 class HomePage extends StatelessWidget {
   static String id = "home";
@@ -179,11 +180,11 @@ class HomePage extends StatelessWidget {
           selectedItemColor: theme.accentColor,
           items: [
             BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: Text('settings')),
+                icon: Icon(NapoleonIcons.task), title: Text('settings')),
             BottomNavigationBarItem(
-                icon: Icon(Icons.home), title: Text('home')),
+                icon: Icon(NapoleonIcons.browser), title: Text('home')),
             BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: Text('questions'))
+                icon: Icon(NapoleonIcons.question), title: Text('questions'))
           ]),
     );
   }

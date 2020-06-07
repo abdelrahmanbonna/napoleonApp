@@ -22,7 +22,12 @@ flutter:
   uses-material-design: true
   assets:
    - assets/
+
   fonts:
+    - family: NapoleonIcons
+      fonts:
+        - asset: fonts/NapoleonIcons.ttf
+
     - family: Roboto
       fonts:
         - asset: fonts/Roboto-Medium.ttf
