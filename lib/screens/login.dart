@@ -38,7 +38,7 @@ class LoginPage extends StatelessWidget {
                     margin: EdgeInsets.only(
                       top: mediaQuery.size.height * 0.2,
                     ),
-                    height: mediaQuery.size.height * 0.5,
+                    height: mediaQuery.size.height * 0.554,
                     width: mediaQuery.size.width * 0.9,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50.0),
