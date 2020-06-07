@@ -42,14 +42,10 @@ class HomePage extends StatelessWidget {
             ),
             Positioned(
               top: 50,
-              right: 20,
-              child: Container(
-                height: 50.00,
-                width: 50.00,
-                decoration: BoxDecoration(
-                  color: Color(0xff5c5c5c),
-                  shape: BoxShape.circle,
-                ),
+              right: 60,
+              child: CircleAvatar(
+                radius: 25,
+                backgroundColor: Color(0xff5C5C5C),
               ),
             ),
             Positioned(
